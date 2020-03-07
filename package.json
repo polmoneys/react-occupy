@@ -1,0 +1,35 @@
+{
+  "name": "React Occupy",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "React occupy help you manage spots ",
+  "author": "Pol Moneys",
+  "repository": "https://github.com/polmoneys/react-occupy",
+  "main": "./lib/index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.+(js|json|css|md|mdx|html)\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-knobs": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addon-storysource": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/react": "^5.3.14",
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^10.0.0",
+    "babel-loader": "^8.0.6",
+    "jest": "^25.1.0",
+    "nock": "^12.0.2",
+    "prettier": "1.19.1",
+    "prop-types": "^15.7.2"
+  }
+}
