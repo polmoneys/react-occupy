@@ -18,15 +18,15 @@ Let users find their place in the world. `<Occupy/>` is a React component for ma
 | spotComponent   | React element |    null |
 | multi           |     bool      |   false |
 
-**rowCount** is the amount of rows, for composing multiple `<Occupy>` use **initialRowIndex** as [in this demo](https://polmoneys.github.io/react-occupy/docs/?path=/story/default--case-a)
+**rowCount** is the amount of rows, for composing multiple `<Occupy>` use **initialRowIndex** as [in this demo](https://polmoneys.github.io/react-occupy/?path=/story/default--case-a)
 
 Both **rowCount** and **spotCount** can be controlled from the outside and will re-render as you'd expect.
 
-If your need has a repeatable pattern **shape** can help achieve it swiftly as [in this demo](https://polmoneys.github.io/react-occupy/docs/?path=/story/shaped--case-a)
+If your need has a repeatable pattern **shape** can help achieve it swiftly as [in this demo](https://polmoneys.github.io/react-occupy/?path=/story/shaped--case-a)
 
-**multi** allows for multiple spot selections, as [in this demo](https://polmoneys.github.io/react-occupy/docs/?path=/story/advanced-composition--case-b)
+**multi** allows for multiple spot selections, as [in this demo](https://polmoneys.github.io/react-occupy/?path=/story/advanced-composition--case-b)
 
-`<Occupy>` leaves up to you how to achieve your needs by providing a render prop with the info you need to create your own `<Log>`component, validate availability, lift state up...as [in this demo](https://polmoneys.github.io/react-occupy/docs/?path=/story/advanced-composition--case-a)
+`<Occupy>` leaves up to you how to achieve your needs by providing a render prop with the info you need to create your own `<Log>`component, validate availability, lift state up...as [in this demo](https://polmoneys.github.io/react-occupy/?path=/story/advanced-composition--case-a)
 
 ```javascript
       props.children({
@@ -35,7 +35,7 @@ If your need has a repeatable pattern **shape** can help achieve it swiftly as [
         })}
 ```
 
-**spotComponent** is how you plug your own React element into the dance. As [in this demo](https://polmoneys.github.io/react-occupy/docs/?path=/story/default--case-b), it will decorate your component with the following props:
+**spotComponent** is how you plug your own React element into the dance. As [in this demo](https://polmoneys.github.io/react-occupy/?path=/story/default--case-b), it will decorate your component with the following props:
 
 ```javascript
 let {
@@ -52,7 +52,7 @@ let {
 
 ## DIY
 
-DIY branch lets you build any complex spot layout as [in this demo](https://polmoneys.github.io/react-occupy/docs/?path=/story/diy-layouts--case-a) or [this one](https://polmoneys.github.io/react-occupy/docs/?path=/story/diy-layouts--case-b).
+DIY branch lets you build any complex spot layout as [in this demo](https://polmoneys.github.io/react-occupy/?path=/story/diy-layouts--case-a) or [this one](https://polmoneys.github.io/react-occupy/?path=/story/diy-layouts--case-b).
 
 ## License
 
